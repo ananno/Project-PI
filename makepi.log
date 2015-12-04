@@ -1,0 +1,330 @@
+Running serial code...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with serial monte-carlo simulation method...
+
+Total step : 1000000000
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.128560		Steps: 1000000000		Difference: 0.013033	
+
+====|| Simulation complete ||=====
+
+real	0m19.590s
+user	0m19.515s
+sys	0m0.001s
+
+Running parallel code with thread 1 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 1
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:  15.120936		Steps: 1000000000		Difference: -11.979344		Threads: 1
+
+====|| Simulation complete ||=====
+
+real	23m38.276s
+user	21m6.637s
+sys	49m12.207s
+
+Running parallel code with thread 2 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 2
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:  12.459823		Steps: 1000000000		Difference: -9.318230		Threads: 2
+
+====|| Simulation complete ||=====
+
+real	11m46.207s
+user	10m14.904s
+sys	24m44.824s
+
+Running parallel code with thread 4 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 4
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.141574		Steps: 1000000000		Difference: 0.000019		Threads: 4
+
+====|| Simulation complete ||=====
+
+real	5m49.929s
+user	5m18.825s
+sys	12m19.053s
+
+Running parallel code with thread 8 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 8
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.141573		Steps: 1000000000		Difference: 0.000020		Threads: 8
+
+====|| Simulation complete ||=====
+
+real	2m52.160s
+user	2m36.179s
+sys	5m55.728s
+
+Running parallel code with thread 16 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 16
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.141762		Steps: 1000000000		Difference: -0.000169		Threads: 16
+
+====|| Simulation complete ||=====
+
+real	1m27.627s
+user	1m19.447s
+sys	3m3.831s
+
+Running parallel code with thread 32 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 32
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.141442		Steps: 1000000000		Difference: 0.000151		Threads: 32
+
+====|| Simulation complete ||=====
+
+real	0m45.568s
+user	0m41.159s
+sys	1m33.773s
+
+Running parallel code with thread 64 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 64
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.141870		Steps: 1000000000		Difference: -0.000277		Threads: 64
+
+====|| Simulation complete ||=====
+
+real	0m21.371s
+user	0m18.509s
+sys	0m44.496s
+
+Running parallel code with thread 128 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 128
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.141694		Steps: 1000000000		Difference: -0.000102		Threads: 128
+
+====|| Simulation complete ||=====
+
+real	0m11.419s
+user	0m9.920s
+sys	0m22.536s
+
+Running parallel code with thread 256 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 256
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.142422		Steps: 1000000000		Difference: -0.000829		Threads: 256
+
+====|| Simulation complete ||=====
+
+real	0m5.343s
+user	0m4.765s
+sys	0m10.833s
+
+Running parallel code with thread 512 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 1000000000, with Threads : 512
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.140806		Steps: 1000000000		Difference: 0.000786		Threads: 512
+
+====|| Simulation complete ||=====
+
+real	0m2.809s
+user	0m2.519s
+sys	0m5.410s
+
+Running parallel code with thread 1024 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 999999488, with Threads : 1024
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.140327		Steps: 1000000000		Difference: 0.001266		Threads: 1024
+
+====|| Simulation complete ||=====
+
+real	0m1.475s
+user	0m1.354s
+sys	0m2.858s
+
+Running parallel code with thread 2048 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 999999488, with Threads : 2048
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.140504		Steps: 1000000000		Difference: 0.001089		Threads: 2048
+
+====|| Simulation complete ||=====
+
+real	0m0.683s
+user	0m0.519s
+sys	0m1.312s
+
+Running parallel code with thread 4096 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 999997440, with Threads : 4096
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.138077		Steps: 1000000000		Difference: 0.003515		Threads: 4096
+
+====|| Simulation complete ||=====
+
+real	0m0.267s
+user	0m0.160s
+sys	0m0.412s
+
+Running parallel code with thread 8192 ...
+
+=====|| Starting Simulation ||=====
+
+Start calculating PI with parallel monte-carlo simulation method...
+
+Total step : 999997440, with Threads : 8192
+
+Initializing ...
+
+Running Simulation...
+
+Preparing results...
+
+PI:   3.147602		Steps: 1000000000		Difference: -0.006009		Threads: 8192
+
+====|| Simulation complete ||=====
+
+real	0m0.242s
+user	0m0.156s
+sys	0m0.331s
+
