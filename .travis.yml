@@ -9,3 +9,20 @@ script:
     - gcc -fopenmp makepi_omp.c -o makepi_omp.x
 
 compilier: gcc
+
+# Coverity addons
+env:
+  global:
+   # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
+   #   via the "travis encrypt" command using the project repo's public key
+   - secure: "aMa53RxPsC1SBn4RibkZ6QVUXrAGuYnEuISoommauMveWD/Md7v/OmNunYNJkfitU9t4pkB5xbos5H5ZF/TODmWckFdaL/y1150c9ffnhwmrgtkoyt5/YoQ725pFM4BmOTOHE6VfCuWhpK/pb5DTyveHtbr2uOOtXMAeIqcdcSPZMYWPMGIoPOgkatY/V2W7sjs5Tc2tfUjINN4uJaQi1HBEegUEmBe5hzPVgqcsGxHOkDpqV/8GBSRb1NVnJAA+V29EloRg8SkwsvRfmcdaqYjRcNArqbkuKN6yo+W/BwLNZh6CfidqpjK5o6/Q4LZFqK5KfI59EfGF8Vxo3A2QmlQ23nFoctWS/iT1/s1yejNTFVsS3OMJv2bB91rkYuAJnO1ae9n/0199Fu23DybKzf7xhPcgPqAtknzZdirZxwsUddUiFAx+MNzA+dgBcgZtIxIz1WywpqbISnHgipovDMYbJUrLKiG2wMfA2GmgUhVlS4kdGRFGWRGQjhtpizhPDTzdIFFupfTugoTWAa17qizSvkDYDT1LDz3eO0IGVG0nIO3KeeWh5a+9NwKMznsjRXZYBpkutrlspPKuhl4IJtyXye8L0wxZTwq8drsDTk5h55WgMkBcuXxMowPibY0lQD3UbI0KvNzawVnJRM2apmWzs8eLUdliX9HGPxAlyHs="
+
+addons:
+  coverity_scan:
+    project:
+      name: "ananno/Project-PI"
+      description: "<Your project description here>"
+    notification_email: ananno@outlook.com
+    build_command_prepend: "rm -rf *.x"
+    build_command:   "gcc makepi_serial.c -o makepi_serial.x && gcc -fopenmp makepi_omp.c -o makepi_omp.x"
+    branch_pattern: coverity_scan
