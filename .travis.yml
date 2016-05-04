@@ -1,0 +1,7 @@
+# Travis configuration script
+
+language: c
+
+script: gcc
+
+compilier: gcc
