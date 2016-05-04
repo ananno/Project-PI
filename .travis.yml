@@ -1,7 +1,9 @@
 # Travis configuration script
 
+install: true
+
 language: c
 
-script: gcc
+script: gcc makepi_serial.c -o makepi_serial.x
 
 compilier: gcc
